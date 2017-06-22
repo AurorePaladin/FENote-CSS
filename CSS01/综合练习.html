@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>账号申请网站</title>
+    <style type="text/css">
+  h3{
+    color: pink;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: gold;
+  }
+    #para1{
+      color: red
+    }
+      #para2{
+        color: green
+      }
+      #gent{
+        color: blue
+      }
+      #lady{
+        color: violet
+      }
+    </style>
+  </head>
+  <body>
+    <h3>请填写你的个人信息</h3>
+  <form >
+    <p>用户名
+    <input type="text" value="取一个清新脱俗的ID吧！">
+    </p>
+    <p>密码
+      <input type="password" ><span id="para1">想一个6-12位含字母、数字、符号的密码</span
+        >
+    </p>
+    <p>确认密码
+      <input type="password" ><span id="para2">请再次输入密码</span>
+    </p>
+    <p>性别
+      <input type="radio" name="sex" > <span id="gent">男</span>
+      <input type="radio" name="sex" > <span id="lady">女</span>
+    </p>
+    <p>生日
+    <input type="date" >
+  </p>
+  <p>是否干过以下的事情
+<input type="checkbox">旅行
+<input type="checkbox">看电影
+<input type="checkbox">游泳
+<input type="checkbox">开飞机
+  </p>
+  <p>所在地
+  <select>
+    <option>不限</option>
+    <option>成都</option>
+    <option>重庆</option>
+    <option>綦江</option>
+  </select>
+</p>
+<p>个性签名
+  <textarea rows="1" cols="30">这个人很懒，什么都没留下....</textarea>
+</p>
+<input type="submit"  value="立即申请">
+<input type="reset"   value="写错了，重填">
+  </form>
+  </body>
+</html>
