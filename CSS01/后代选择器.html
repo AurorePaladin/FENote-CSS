@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>选择器</title>
+    <style media="screen">
+/*后代选择器的基本用法,空格就表示后代*/
+      .lala p{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+<h3 class="nice">哼！没人知道我是什么颜色</h3>
+<div class="lala">
+  <div class="yanse1">
+    <p>我就不喜欢颜色</p>
+    <div class="yanse2">
+      <p>我就不要类</p>
+        <div class="yanse3">
+         <p class="nice">真的吗</p>
+        </div>
+    </div>
+ </div>
+</div>
+  </body>
+</html>
