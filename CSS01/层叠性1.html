@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aurore</title>
+  <style type="text/css">
+   #cruel .sweety1 p{
+      color:yellowgreen;
+    }
+    /*权重为1，1，1*/
+    #sweety1 .ugly p{
+      color: blue;
+    }
+        /*权重为1，1，1*/
+    #sweety2 .beauty3 p{
+      color: green;
+    }
+    /*权重为1，1，1*/
+    #sweety1 .beauty2 p{
+      color: red;
+    }
+    /*权重为1，1，1*/
+  </style>
+  </head>
+  <body>
+    <div class="ugly" id="cruel">
+    <div class="beauty1" id="sweety1">
+       <div class="beauty2" id="sweety2">
+         <div class="beauty3" id="sweety3">
+           <p>到底是美还是甜</p>
+         </div>
+       </div>
+     </div>
+     </div>
+<!-- 都被选中且权重相同时，谁在最后面就听谁的 -->
+  </body>
+</html>
