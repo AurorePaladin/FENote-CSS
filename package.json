@@ -1,0 +1,24 @@
+{
+  "name": "fenote-css",
+  "version": "1.0.0",
+  "description": "前端学习笔记-CSS",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurorePaladin/FENote-CSS.git"
+  },
+  "author": "AurorePaladin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AurorePaladin/FENote-CSS/issues"
+  },
+  "homepage": "https://github.com/AurorePaladin/FENote-CSS#readme"
+}
